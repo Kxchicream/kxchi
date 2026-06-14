@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kimochi Computer Services Repair</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">⚙</span>
+        <span class="logo-text">KIMOCHI</span>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <canvas id="circuit-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>General Trias, Cavite</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">KIMOCHI</span>
+        <span class="title-sub">COMPUTER SERVICES</span>
+        <span class="title-accent">REPAIR</span>
+      </h1>
+      <p class="hero-desc">Professional PC & Laptop repair, deep cleaning, upgrades, and Windows installation. Your trusted local tech expert.</p>
+      <div class="hero-actions">
+        <a href="#pricing" class="btn-primary">See Pricing</a>
+        <a href="#projects" class="btn-outline">View Projects</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">PCs Serviced</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Satisfaction</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">5★</span><span class="stat-label">Rated Service</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="monitor-frame">
+        <div class="monitor-screen">
+          <div class="screen-content">
+            <div class="terminal-line"><span class="t-green">$</span> initializing system...</div>
+            <div class="terminal-line"><span class="t-green">$</span> running diagnostics...</div>
+            <div class="terminal-line"><span class="t-blue">✓</span> CPU: healthy</div>
+            <div class="terminal-line"><span class="t-blue">✓</span> GPU: healthy</div>
+            <div class="terminal-line"><span class="t-blue">✓</span> RAM: 32GB OK</div>
+            <div class="terminal-line"><span class="t-yellow">!</span> thermal paste: needed</div>
+            <div class="terminal-line"><span class="t-green">→</span> contacting Kimochi...</div>
+            <div class="terminal-cursor">_</div>
+          </div>
+        </div>
+        <div class="monitor-stand"></div>
+        <div class="monitor-base"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-desc">From deep cleaning to full system builds — we handle it all.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🧹</div>
+          <h3>PC Deep Cleaning</h3>
+          <p>Full disassembly, compressed air cleaning, dust removal from fans, heatsinks, and vents for optimal airflow and cooling.</p>
+          <span class="service-price">₱600</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💻</div>
+          <h3>Laptop Cleaning</h3>
+          <p>Complete laptop cleaning including keyboard, vents, internal fans, and heatsink to prevent overheating issues.</p>
+          <span class="service-price">₱800</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>CPU & GPU Repaste</h3>
+          <p>Thermal paste replacement on CPU and GPU for dramatically improved temperatures and extended hardware lifespan.</p>
+          <span class="service-price">₱200</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🪟</div>
+          <h3>Windows Reformat</h3>
+          <p>Fresh Windows 10/11 installation with free activation. Clean slate for optimal performance.</p>
+          <span class="service-price">₱500</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>Recase / Assemble</h3>
+          <p>PC case transfer, full assembly, and cable management for a clean, organized build.</p>
+          <span class="service-price">₱300</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⬆️</div>
+          <h3>Upgrade Parts</h3>
+          <p>RAM upgrades, SSD installation, GPU and CPU swaps — we handle all hardware upgrades with proper compatibility checks.</p>
+          <span class="service-price">Ask us</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Transparent Rates</span>
+        <h2 class="section-title">Price List</h2>
+        <p class="section-desc">All prices in Philippine Peso. Additional fee may apply depending on location.</p>
+      </div>
+      <div class="price-table-wrap">
+        <div class="price-table">
+          <div class="price-header-row">
+            <span>Service</span>
+            <span>Price (₱)</span>
+          </div>
+          <div class="price-row">
+            <div class="price-name">
+              <span class="price-icon">🧹</span>
+              <div>
+                <strong>PC Deep Cleaning</strong>
+                <small>Full disassembly, dust removal, all components</small>
+              </div>
+            </div>
+            <span class="price-tag">₱600</span>
+          </div>
+          <div class="price-row">
+            <div class="price-name">
+              <span class="price-icon">💻</span>
+              <div>
+                <strong>Laptop Cleaning</strong>
+                <small>Internal fans, vents, keyboard, heatsink</small>
+              </div>
+            </div>
+            <span class="price-tag">₱800</span>
+          </div>
+          <div class="price-row">
+            <div class="price-name">
+              <span class="price-icon">📦</span>
+              <div>
+                <strong>Recase or Assemble</strong>
+                <small>Case transfer, full build, cable management</small>
+              </div>
+            </div>
+            <span class="price-tag">₱300</span>
+          </div>
+          <div class="price-row">
+            <div class="price-name">
+              <span class="price-icon">🌡️</span>
+              <div>
+                <strong>Repaste CPU & GPU</strong>
+                <small>Thermal paste replacement, reseating</small>
+              </div>
+            </div>
+            <span class="price-tag">₱200</span>
+          </div>
+          <div class="price-row featured">
+            <div class="price-name">
+              <span class="price-icon">🪟</span>
+              <div>
+                <strong>Reformat Windows 10/11</strong>
+                <small>Clean install + FREE Windows Activation</small>
+              </div>
+            </div>
+            <span class="price-tag">₱500</span>
+          </div>
+          <div class="price-row featured">
+            <div class="price-name">
+              <span class="price-icon">💿</span>
+              <div>
+                <strong>Windows 10/11 Install</strong>
+                <small>Fresh installation + FREE Windows Activation</small>
+              </div>
+            </div>
+            <span class="price-tag">₱500</span>
+          </div>
+          <div class="price-note">
+            <span>⚠️</span>
+            <span>Additional transportation fee may apply depending on your location. Contact us for a quote.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2 class="section-title">Deep Cleaning Projects</h2>
+        <p class="section-desc">Real PCs we've serviced — before and after transformations.</p>
+      </div>
+
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="cleaning">Deep Cleaning</button>
+        <button class="filter-btn" data-filter="build">Builds</button>
+      </div>
+
+<div class="projects-grid" id="projects-grid">
+  <div class="project-card" data-category="build">
+    <div class="project-img-wrap">
+      <div class="real-ba">
+        <div class="real-before">
+          <span class="ba-tag">Before</span>
+          <img src="img/before1.jpg" alt="Dusty Computer Interior" class="project-image">
+        </div>
+        <div class="real-after">
+          <span class="ba-tag after-tag">After</span>
+          <img src="img/after1.jpg" alt="Cleaned PC Build" class="project-image">
+        </div>
+      </div>
+      <div class="project-badge">Build + Deep Clean</div>
+    </div>
+    <div class="project-info">
+      <h3>Deep Cleaning + Windows Reformat</h3>
+      <p>Thank you for choosing our service!, Complete removal of dust, Reformat and CPU Fan replacement</p>
+      <div class="project-tags">
+        <span>Assembly</span><span>Deep Clean</span><span>AIO</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card" data-category="cleaning">
+    <div class="project-img-wrap">
+      <div class="real-ba">
+        <div class="real-before">
+          <span class="ba-tag">Before</span>
+          <img src="img/before.jpg" alt="High Temperatures" class="project-image">
+        </div>
+        <div class="real-after">
+          <span class="ba-tag after-tag">After</span>
+          <img src="img/after.jpg" alt="Fresh Repaste" class="project-image">
+        </div>
+      </div>
+      <div class="project-badge">Deep Cleaning</div>
+    </div>
+    <div class="project-info">
+      <h3>Deep Cleaning</h3>
+      <p>Complete removal of dust and debris from system components. He also availed GPU Fan replacement</p>
+      <div class="project-tags">
+        <span>Repaste</span><span>Deep Clean</span>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Real-Time Scheduling</span>
+        <h2 class="section-title">Book a Repair Slot</h2>
+        <p class="section-desc">Select an operational calendar date, pick your preferred service window time, and finalize your system details below.</p>
+      </div>
+
+      <div class="booking-stepper">
+        <div class="step-node active" id="step-node-1">1</div>
+        <div class="step-line" id="step-line-1"></div>
+        <div class="step-node" id="step-node-2">2</div>
+      </div>
+
+      <div class="booking-dashboard-card">
+        <form id="contact-form" method="POST">
+          <input type="hidden" id="hidden-booking-date" name="booking_date">
+          <input type="hidden" id="hidden-booking-time" name="booking_time">
+          
+          <div class="booking-panel active" id="panel-step-1">
+            <div class="picker-layout-grid">
+              
+              <div class="calendar-component">
+                <label class="picker-label">Select Date *</label>
+                <div class="calendar-widget">
+                  <div class="calendar-ctrl">
+                    <span class="calendar-month-year" id="cal-month-year">June 2026</span>
+                    <div class="cal-nav-btns">
+                      <button type="button" id="cal-prev-btn" class="cal-btn">‹</button>
+                      <button type="button" id="cal-next-btn" class="cal-btn">›</button>
+                    </div>
+                  </div>
+                  <div class="calendar-weekdays">
+                    <div>SU</div><div>MO</div><div>TU</div><div>WE</div><div>TH</div><div>FR</div><div>SA</div>
+                  </div>
+                  <div class="calendar-days-grid" id="cal-days-grid"></div>
+                </div>
+                
+                <div class="calendar-legend">
+                  <div class="legend-item"><span class="lg-dot partial"></span> Available</div>
+                  <div class="legend-item"><span class="lg-dot booked"></span> Fully Booked</div>
+                </div>
+              </div>
+
+              <div class="time-component">
+                <label class="picker-label">Select Times *</label>
+                <div class="time-slots-grid" id="time-slots-container"></div>
+              </div>
+
+            </div>
+            
+            <div class="panel-actions-footer">
+              <button type="button" class="btn-primary" id="go-to-step-2" disabled>Next Step ›</button>
+            </div>
+          </div>
+
+          <div class="booking-panel" id="panel-step-2">
+            <h3 class="panel-subtitle">⚙️ Provide Contact & Hardware Information</h3>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="client-name">Full Name *</label>
+                <input type="text" id="client-name" name="name" placeholder="E.g., Juan Dela Cruz" required />
+              </div>
+              <div class="form-group">
+                <label for="client-email">Email Address *</label>
+                <input type="email" id="client-email" name="email" placeholder="name@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="client-phone">Phone Number</label>
+                <input type="tel" id="client-phone" name="phone" placeholder="E.g., 09123456789" />
+              </div>
+              <div class="form-group">
+                <label for="client-service">Select Service Portfolio *</label>
+                <select id="client-service" name="service" required>
+                  <option value="pc-deep-clean">PC Deep Cleaning (₱600)</option>
+                  <option value="laptop-clean">Laptop Cleaning (₱800)</option>
+                  <option value="repaste">CPU & GPU Repaste (₱200)</option>
+                  <option value="reformat">Reformat Windows 10/11 (₱500)</option>
+                  <option value="windows-install">Windows 10/11 Install (₱500)</option>
+                  <option value="recase">Recase / Assemble (₱300)</option>
+                  <option value="upgrade">Upgrade Parts (Ask for Quote)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="client-message">Issue Description / Hardware Specs *</label>
+              <textarea id="client-message" name="issue_description" placeholder="State your system specs (CPU, GPU, Case model) or summarize the problem..." required></textarea>
+            </div>
+            
+            <div class="panel-actions-footer">
+              <button type="button" class="btn-outline" id="back-to-step-1">‹ Back</button>
+              <button type="submit" class="btn-submit" id="submit-btn">Confirm Appointment Slot</button>
+            </div>
+          </div>
+
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+
+      <div class="live-clock-container">
+        <span class="clock-label">Current:</span>
+        <span id="live-clock">Loading Date and Time...</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">⚙ KIMOCHI</div>
+      <p class="footer-tagline">Premium Computer Care Solutions</p>
+      <p class="footer-copy">&copy; 2026 Kimochi Computer Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
